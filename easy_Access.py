@@ -208,7 +208,7 @@ class easy_Access_GUI (Frame) :
     def setActiveServer(self, server, serverName):    
         self.activeServers[server] = serverName
         
-   # def submitToCMTS(self):
+   # def submitToCMTS(self):   Update from Apr19
     def onValidate ( self, d, i, P, s, S, v, V, W): 
         print self.resultFromCMTS_text.insert("end", "d=%s\n" % d) 
         print self.resultFromCMTS_text.insert("end", "i=%s\n" % i) 
